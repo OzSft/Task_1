@@ -5,7 +5,7 @@ public class Motorcycle extends Mashine{
 	protected int countOfPassengers;
 	protected int countOfWheels;
 
-	Motorcycle(String name, double currentSpeed, double weight,
+	Motorcycle(String name, int currentSpeed, double weight,
 				int countOfPassengers, int countOfWheels) {
 		super(name, currentSpeed);
 		this.countOfPassengers = countOfPassengers;
@@ -14,7 +14,7 @@ public class Motorcycle extends Mashine{
 	}
 
 	@Override
-	public double getSpeed() {
+	public int getSpeed() {
 		return currentSpeed;
 	}
 

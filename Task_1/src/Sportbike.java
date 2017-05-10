@@ -3,7 +3,7 @@ public class Sportbike extends Motorcycle{
 	
 	private double engineCapacity;
 
-	Sportbike(String name, double currentSpeed, double weight, int countOfPassengers, int countOfWheels) {
+	Sportbike(String name, int currentSpeed, double weight, int countOfPassengers, int countOfWheels) {
 		super(name, currentSpeed, weight, countOfPassengers, countOfWheels);
 	}
 

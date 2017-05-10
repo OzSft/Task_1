@@ -5,7 +5,7 @@ public abstract class Train extends Mashine {
 	protected int countOfPassengers;
 	protected int countOfWheels;
 
-	Train(String name, double currentSpeed, double weight,
+	Train(String name, int currentSpeed, double weight,
 			int countOfPassengers, int countOfWheels) {
 	super(name, currentSpeed);
 	this.countOfPassengers = countOfPassengers;
@@ -14,7 +14,7 @@ public abstract class Train extends Mashine {
 	}
 	
 	@Override
-	public double getSpeed() {
+	public int getSpeed() {
 		return currentSpeed;
 	}
 

@@ -2,7 +2,7 @@ public class DieselTrain extends Train {
 
 	private double engineCapacity;
 	
-	DieselTrain(String name, double currentSpeed, double weight, int countOfPassengers, int countOfWheels) {
+	DieselTrain(String name, int currentSpeed, double weight, int countOfPassengers, int countOfWheels) {
 		super(name, currentSpeed, weight, countOfPassengers, countOfWheels);
 	}
 

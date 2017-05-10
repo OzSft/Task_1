@@ -5,7 +5,7 @@ public class Tricycle extends Motorcycle{
 	private double bascketWidth;
 	private double bascketLenght;
 	
-	Tricycle(String name, double currentSpeed, double weight, int countOfPassengers, int countOfWheels) {
+	Tricycle(String name, int currentSpeed, double weight, int countOfPassengers, int countOfWheels) {
 		super(name, currentSpeed, weight, countOfPassengers, countOfWheels);
 	}
 

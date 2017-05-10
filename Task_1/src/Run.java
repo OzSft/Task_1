@@ -1,8 +1,8 @@
 
 public interface Run {
-	void printName();
-	double getSpeed();
+	String getName();
 	double getWeight();
 	int getCountOfPassengers();
 	int getCountOfWheels();
+	int getSpeed();
 }
